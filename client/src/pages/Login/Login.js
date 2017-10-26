@@ -19,7 +19,7 @@ class Login extends Component {
 
     componentDidMount = () => {
 
-        const socket = openSocket("https://vox-royale.herokuapp.com/");
+        const socket = openSocket("https://vox-royale-cbc.herokuapp.com/");
         const login = this;
 
         socket.on("connect", function (data) {
